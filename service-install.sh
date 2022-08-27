@@ -58,7 +58,7 @@ Description=${serviceName}
 Type=notify
 WorkingDirectory=${rootPath}
 ExecStart=${execPath}
-Environment=ASPNETCORE_URLS=http://*:8080/
+Environment=ASPNETCORE_URLS=http://*:7788/
 
 [Install]
 WantedBy=multi-user.target
